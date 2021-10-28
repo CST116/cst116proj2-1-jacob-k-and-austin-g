@@ -1,0 +1,25 @@
+pseudocode
+
+Displaymenu int& choice:
+	const string menu = string that contains the menu
+	output menu
+	input >> choice
+
+IsPosNeg int value:
+	if value == 0:
+		output neither
+	else if value < 0:
+		output negative
+	else:
+		output positive
+
+FindNumDigits int value:
+	int digits
+	digits = log(value)
+	output digits
+
+DisplayAdditionTable:
+	for i = 0; i <= 12; i++:
+		for j = 0; j <= 12 j++:
+			output i + j
+		output \n
