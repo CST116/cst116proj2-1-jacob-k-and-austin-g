@@ -1,0 +1,17 @@
+#include "Voids.h"
+#include <iostream>
+
+int main()
+{
+	int Number = 0;
+
+	int Digit = 0;
+
+	int Position = 0;
+
+	GetData(Number);
+
+	IsOddEven(Number);
+
+	FindDigitAtPosition(Digit, Position, Number);
+}
