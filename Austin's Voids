@@ -1,0 +1,6 @@
+#pragma once
+
+void FindDigitAtPosition(int Digit, int Position, int& Number);
+void ProcessMenuChoice(float Choice);
+void GetData(int& Number);
+void IsOddEven(int& Number);
