@@ -96,3 +96,33 @@ void DisplayAdditonTable()
 		cout << "\n";
 	}
 }
+
+void GetData(int& Number)
+{
+	cout << "\n-----Input a number between negative one million and one million to be tested-----\n";
+	cin >> Number;
+	while (Number > 1000000 || Number < -1000000)
+	{
+		cout << "\nYou did not enter a number in between the designated values, try again: \n\n" << endl;
+		cin >> Number;
+	}
+	cout << "\nYou entered the value: " << Number << endl;
+}
+
+void IsOddEven(int& Number)
+{
+	cout << "\n\nCalculating if the number entered is even, odd, or 0\n\n";
+
+	if (Number % 2 == 0 && Number != 0)
+		cout << Number << " is even.\n\n";
+	else if (Number % 2 == 1 && Number != 0)
+		cout << Number << " is odd.\n\n";
+	else if (Number == 0)
+		cout << "This number is a 0.\n\n";
+}
+
+void FindDigitAtPosition(int Digit, int Position, int& Number)
+{
+	cout << "\nThe number you have chosen from before is " << Number << ", what position of that number do you want to see where that digit is outputted?\n";
+	cin >> Position;
+}
