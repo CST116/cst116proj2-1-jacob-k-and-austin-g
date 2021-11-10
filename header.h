@@ -2,12 +2,11 @@
 
 #pragma once
 
-//double GetData();
+void GetData(int& Number);
 void DisplayMenu(int& choice);
 void ProcessMenuChocie(int choice, int& value);
 void IsPosNeg(int value);
-//void IsOddEven(int value);
+void IsOddEven(int& Number);
 int FindNumDigits(int value);
-//int FindDigitAtPosition(int value);
+void FindDigitAtPosition(int Digit, int Position, int& Number);
 void DisplayAdditonTable();
-//void DisplayMultipicationTable();
