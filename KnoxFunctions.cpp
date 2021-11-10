@@ -40,7 +40,7 @@ void ProcessMenuChocie(int chocie, int& value)
 		cout << value << " has " << digits << " digits.\n";
 		break;
 	case 4:
-		FindDigitAtPosition(Digit, Position, value);
+		FindDigitAtPosition(Digit, Position, NumberDigit, Numberindex);
 		break;
 	case 5:
 		DisplayAdditonTable();
