@@ -8,5 +8,5 @@ void ProcessMenuChocie(int choice, int& value);
 void IsPosNeg(int value);
 void IsOddEven(int& Number);
 int FindNumDigits(int value);
-void FindDigitAtPosition(int Digit, int Position, int& Number);
+void FindDigitAtPosition(int Digit, int Position, string& NumberDigit, char& Numberindex);
 void DisplayAdditonTable();
