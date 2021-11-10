@@ -16,8 +16,7 @@ void DisplayMenu(int& choice)
 \t 3. How many digits does the value have\n\
 \t 4. See the digit at a specifed position\n\
 \t 5. Show additon table\n\
-\t 6. Show multiplication table\n\
-\t 7. Exit program\n\n";
+\t 6. Exit program\n\n";
 
 	cout << menu;
 	cout << "Input Menu Choice: ";
@@ -27,30 +26,27 @@ void DisplayMenu(int& choice)
 
 void ProcessMenuChocie(int chocie, int& value)
 {
-	int digits = 0;
+	int digits = 0, Digit = 0, Position = 0;
 	switch (chocie)
 	{
 	case 1:
 		IsPosNeg(value);
 		break;
 	case 2:
-		GetData(Number);
+		IsOddEven(value);
 		break;
 	case 3:
 		digits = FindNumDigits(value);
 		cout << value << " has " << digits << " digits.\n";
 		break;
 	case 4:
-		IsOddEven(Number);
+		FindDigitAtPosition(Digit, Position, value);
 		break;
 	case 5:
 		DisplayAdditonTable();
 		break;
 	case 6:
-		FindDigitAtPosition(Digit, Position, Number);
 		break;
-	case 7:
-		return;
 	default:
 		cout << "Unknown Menu Choice. Please input a number between 1 and 6";
 		return;

@@ -9,10 +9,14 @@ using namespace std;
 
 int main()
 {
-    int num = 10, choice = 0;
-    while (choice != 7)
+    int num = 0, choice = 0;
+    GetData(num);
+
+    while (choice != 6)
     {
         DisplayMenu(choice);
         ProcessMenuChocie(choice, num);
     }
+
+    cout << "Exiting Program...";
 }
