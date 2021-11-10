@@ -123,8 +123,15 @@ void IsOddEven(int& Number)
 		cout << "This number is a 0.\n\n";
 }
 
-void FindDigitAtPosition(int Digit, int Position, int& Number)
+void FindDigitAtPosition(int Digit, int Position, string& NumberDigit, char& Numberindex)
 {
-	cout << "\nThe number you have chosen from before is " << Number << ", what position of that number do you want to see where that digit is outputted?\n";
+	cout << "\nWhat is the number you want to find the digit position of:\n\n";
+	cin >> NumberDigit;
+
+	cout << "what position of that number do you want to see where that digit is outputted ? \n";
 	cin >> Position;
+
+	Numberindex = NumberDigit[Position - 1];
+
+	cout << "Your digit is " << Numberindex;
 }
