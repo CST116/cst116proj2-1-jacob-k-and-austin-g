@@ -34,15 +34,21 @@ void ProcessMenuChocie(int chocie, int& value)
 		IsPosNeg(value);
 		break;
 	case 2:
+		GetData(Number);
+		break;
 	case 3:
 		digits = FindNumDigits(value);
 		cout << value << " has " << digits << " digits.\n";
 		break;
 	case 4:
+		IsOddEven(Number);
+		break;
 	case 5:
 		DisplayAdditonTable();
 		break;
 	case 6:
+		FindDigitAtPosition(Digit, Position, Number);
+		break;
 	case 7:
 		return;
 	default:
