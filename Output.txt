@@ -1,0 +1,166 @@
+
+-----Input a number between negative one million and one million to be tested-----
+45
+
+You entered the value: 45
+                        --MENU--
+
+         1. Is the value positive or negative
+         2. Is the value odd or even
+         3. How many digits does the value have
+         4. See the digit at a specifed position
+         5. Show additon table
+         6. Exit program
+
+Input Menu Choice: 1
+45 is positve.
+                        --MENU--
+
+         1. Is the value positive or negative
+         2. Is the value odd or even
+         3. How many digits does the value have
+         4. See the digit at a specifed position
+         5. Show additon table
+         6. Exit program
+
+Input Menu Choice: 2
+
+
+Calculating if the number entered is even, odd, or 0
+
+45 is odd.
+
+                        --MENU--
+
+         1. Is the value positive or negative
+         2. Is the value odd or even
+         3. How many digits does the value have
+         4. See the digit at a specifed position
+         5. Show additon table
+         6. Exit program
+
+Input Menu Choice: 3
+45 has 3 digits.
+                        --MENU--
+
+         1. Is the value positive or negative
+         2. Is the value odd or even
+         3. How many digits does the value have
+         4. See the digit at a specifed position
+         5. Show additon table
+         6. Exit program
+
+Input Menu Choice: 4
+
+The number you have chosen from before is 45, what position of that number do you want to see where that digit is outputted?
+7
+                        --MENU--
+
+         1. Is the value positive or negative
+         2. Is the value odd or even
+         3. How many digits does the value have
+         4. See the digit at a specifed position
+         5. Show additon table
+         6. Exit program
+
+Input Menu Choice: 4
+
+The number you have chosen from before is 45, what position of that number do you want to see where that digit is outputted?
+1
+                        --MENU--
+
+         1. Is the value positive or negative
+         2. Is the value odd or even
+         3. How many digits does the value have
+         4. See the digit at a specifed position
+         5. Show additon table
+         6. Exit program
+
+Input Menu Choice: 5
+The addition table for numbers 0-12:
+0  1  2  3  4  5  6  7  8  9  10 11 12
+1  2  3  4  5  6  7  8  9  10 11 12 13
+2  3  4  5  6  7  8  9  10 11 12 13 14
+3  4  5  6  7  8  9  10 11 12 13 14 15
+4  5  6  7  8  9  10 11 12 13 14 15 16
+5  6  7  8  9  10 11 12 13 14 15 16 17
+6  7  8  9  10 11 12 13 14 15 16 17 18
+7  8  9  10 11 12 13 14 15 16 17 18 19
+8  9  10 11 12 13 14 15 16 17 18 19 20
+9  10 11 12 13 14 15 16 17 18 19 20 21
+10 11 12 13 14 15 16 17 18 19 20 21 22
+11 12 13 14 15 16 17 18 19 20 21 22 23
+12 13 14 15 16 17 18 19 20 21 22 23 24
+                        --MENU--
+
+         1. Is the value positive or negative
+         2. Is the value odd or even
+         3. How many digits does the value have
+         4. See the digit at a specifed position
+         5. Show additon table
+         6. Exit program
+
+Input Menu Choice: 6
+Exiting Program...
+C:\Users\jakno\source\repos\CST116\cst116proj2-1-jacob-k-and-austin-g\Debug\Project2.exe (process 21264) exited with code 0.
+Press any key to close this window . . .
+
+
+
+-----Input a number between negative one million and one million to be tested-----
+-366
+
+You entered the value: -366
+                        --MENU--
+
+         1. Is the value positive or negative
+         2. Is the value odd or even
+         3. How many digits does the value have
+         4. See the digit at a specifed position
+         5. Show additon table
+         6. Exit program
+
+Input Menu Choice: 1
+-366 is negative.
+                        --MENU--
+
+         1. Is the value positive or negative
+         2. Is the value odd or even
+         3. How many digits does the value have
+         4. See the digit at a specifed position
+         5. Show additon table
+         6. Exit program
+
+Input Menu Choice: 2
+
+
+Calculating if the number entered is even, odd, or 0
+
+-366 is even.
+
+                        --MENU--
+
+         1. Is the value positive or negative
+         2. Is the value odd or even
+         3. How many digits does the value have
+         4. See the digit at a specifed position
+         5. Show additon table
+         6. Exit program
+
+Input Menu Choice: 4
+
+The number you have chosen from before is -366, what position of that number do you want to see where that digit is outputted?
+2
+                        --MENU--
+
+         1. Is the value positive or negative
+         2. Is the value odd or even
+         3. How many digits does the value have
+         4. See the digit at a specifed position
+         5. Show additon table
+         6. Exit program
+
+Input Menu Choice: 6
+Exiting Program...
+C:\Users\jakno\source\repos\CST116\cst116proj2-1-jacob-k-and-austin-g\Debug\Project2.exe (process 13852) exited with code 0.
+Press any key to close this window . . .
